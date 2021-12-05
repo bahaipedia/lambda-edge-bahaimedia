@@ -1,4 +1,4 @@
-# lambda-edge-bahaimedia
+# lambda-edge-detect-origin
 Capture users country of origin and redirect their requests to the s3 bucket closets to them
 
 In our setup Cloudfront sits in front of user media requests. We host a number of large files which are not 
