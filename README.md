@@ -6,3 +6,5 @@ requested frequently, consequently our miss rate can be high and Cloudfront must
 origin s3 bucket. For users who are geographically far from the origin bucket download times can be noticably 
 slow. Our Cloudfront distributon has 5 origins. This function analyizes a users country of origin in order to
 signal which origin bucket Cloudfront should use in the case of a cache miss.
+
+See also, repository lambda-edge-file-redirect which captures edge cases and returns an otherwise 'missing' file.
