@@ -1,5 +1,5 @@
 # lambda-edge-detect-origin
-Capture users country of origin and redirect their requests to the s3 bucket closets to them
+Capture users country of origin and redirect their requests to the s3 bucket closest to them
 
 In our setup Cloudfront sits in front of user media requests. We host a number of large files which are not 
 requested frequently, consequently our miss rate can be high and Cloudfront must request the file from the 
