@@ -49,6 +49,7 @@ def lambda_handler(event, context):
         try:
             continent = conv.country_alpha2_to_continent_code(countryCode)
         except:    
+            print(f'Failed to detect region from {countryCode}, will use "continentToDomain" and "continentToRegion" methods')
             domainName = 'bahaimedia.s3.us-east-1.amazonaws.com'
             region = 'us-east-1'
         else:
